@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" placeholder="enter here" id="me">
+<button onclick="submit()">Submit</button>
+<div id="greet"></div>
+</body>
+<script>
+    function submit(){
+        let firstname = document.getElementById("me").value;
+        document.getElementById("greet").innerText = firstname;
+        console.log(firstname);
+    }
+
+    
+</script>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+
+<!-- inner html
+inner text
+text content -->
+    <div id="number" style="font-size: 40px;">0</div>
+    <button id="increment" onclick="increment()">Increment</button>
+    <button id="decrement" onclick="decrement()">Decrement</button>
+    <button id="reset" onclick="reset()">Reset</button>
+
+
+    <!-- <form id="form">
+        <label for="firstName">First Name</label>
+        <input type="text" placeholder="Enter your first name" id="firstName" class="inputClass">
+        <br/>
+        <label for="lastName">Last Name</label>
+        <input type="text" placeholder="Enter your last name" id="lastName" class="inputClass">
+        <br/>
+        <button onclick="submitForm()">Submit</button>
+        <div id="greet"></div> 
+    </form> -->
+    
+</body>
+<script>
+    var count =0;
+    function update(){
+        document.getElementById("number").textContent=count;
+    }
+    function increment(){
+        count=count+1;
+        update();
+    }
+
+    function decrement(){
+        count = count-1; 
+        update();
+    }
+
+    function reset(){
+        count=0; 
+        update();
+    }
+
+// function submitForm(){
+//     let firstname = document.getElementById("firstName").value;
+//     let lastname = document.getElementById("lastName").value; 
+//     let first="John";
+//     let last = "Doe";
+//     let message = "Hello "+first+" "+last+"  !!!";
+//     document.getElementById("greet").innerText = message; 
+// }  
+</script>
+</html>
