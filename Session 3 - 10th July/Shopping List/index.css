@@ -1,0 +1,23 @@
+body{
+    margin: 20px;
+}
+
+h1{
+    text-align: center;
+}
+
+#list-form{
+    margin-bottom: 20px;
+}
+
+#list-form input{
+    margin-right: 10px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    margin-bottom: 5px;
+}

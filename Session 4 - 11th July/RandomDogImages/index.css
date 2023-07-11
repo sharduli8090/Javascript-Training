@@ -1,0 +1,22 @@
+body{
+    margin: 10px;
+}
+
+h1{
+    text-align: center;
+}
+
+#fetchButton{
+    margin: 20px ;
+}
+
+#imageContainer{
+    text-align: center;
+}
+
+
+#imageContainer img{
+    max-width: 400px;
+    max-height: 400px;
+    margin-bottom: 20px;
+}
